@@ -1,6 +1,11 @@
 # PTB Language Modelling task with RNNS(LSTM,GRU)
 This repository is used for a language modelling pareto competition at TTIC. 
 
+TODO:
+
+Upload files
+
+
 ### Competition
 
 (time ratio, perplexity)
