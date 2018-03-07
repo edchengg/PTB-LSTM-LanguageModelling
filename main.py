@@ -23,7 +23,7 @@ parser.add_argument('--nhid', type=int, default=256,
                     help='number of hidden units per layer')
 parser.add_argument('--nlayers', type=int, default=1,
                     help='number of layers')
-parser.add_argument('--lr', type=float, default=0.15,
+parser.add_argument('--lr', type=float, default=25,
                     help='initial learning rate')
 parser.add_argument('--clip', type=float, default=0.25,
                     help='gradient clipping')
@@ -47,9 +47,9 @@ parser.add_argument('--log_interval', type=int, default=200, metavar='N',
                     help='report interval')
 parser.add_argument('--save', type=str,  default='model.pt',
                     help='path to save the final model')
-parser.add_argument('--soft', action='store_false',
+parser.add_argument('--soft', action='store_true',
                     help='use sampled softmax')
-parser.add_argument('--adagrad', action='store_false',
+parser.add_argument('--adagrad', action='store_true',
                     help='use adagrad')
 parser.add_argument('--cuda', action='store_true',
                     help='use CUDA')
