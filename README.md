@@ -2,11 +2,11 @@
 
 This repository is used for a language modelling pareto competition at TTIC. 
 
-###Sampled Softmax
+### Sampled Softmax
 
-###Pre-trained word embedding(GloVe)
+### Pre-trained word embedding(GloVe)
 
-###Adagrad optimizer
+### Adagrad optimizer
 
 ### Competition
 
