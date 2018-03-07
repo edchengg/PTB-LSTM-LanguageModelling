@@ -1,7 +1,11 @@
-# PTB Language Modelling task with RNNS(LSTM,GRU) + Sampled Softmax + Pre-trained word embedding(GloVe) + Adagrad optimizer
+# PTB Language Modelling task
 
 This repository is used for a language modelling pareto competition at TTIC. 
 
+##RNNS(LSTM,GRU)
+##Sampled Softmax
+##Pre-trained word embedding(GloVe)
+##Adagrad optimizer
 
 ### Competition
 
