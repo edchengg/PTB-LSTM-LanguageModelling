@@ -2,10 +2,6 @@
 
 This repository is used for a language modelling pareto competition at TTIC. 
 
-TODO:
-
-Upload files
-
 
 ### Competition
 
