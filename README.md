@@ -17,7 +17,7 @@ time ratio = training time/ base model training time. (The base model is trained
 Note: Your training time must be calculated from a single CPU.
 
 ## Model
-I implemented Sampled Softmax method to the originial RNNS model. In addition, an implementation of using pre-trained word embedding with size of 200 and 300 from GloVe can be found in the main.py. The model is also trained with Adagrad optimizer.
+I implemented Sampled Softmax method to the originial RNNS model. In addition, an implementation of using pre-trained word embedding with size of 200 and 300 from GloVe can be found in the main.py. The model is also trained with Adagrad optimizer + L2 weight decay.
 
 ## Software Requirements
 
