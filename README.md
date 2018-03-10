@@ -21,7 +21,7 @@ I implemented Sampled Softmax method to the originial RNNS model. In addition, a
 
 ## Software Requirements
 
-This codebase requires Python 3, [PyTorch](http://pytorch.org/)
+This codebase requires Python 3.5, [PyTorch](http://pytorch.org/)
 
 ## GloVe
 
