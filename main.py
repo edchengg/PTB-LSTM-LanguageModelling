@@ -225,8 +225,11 @@ def train():
         # Starting each batch, we detach the hidden state from how it was previously produced.
         # If we didn't, the model would try backpropagating all the way to start of the dataset.
         hidden = repackage_hidden(hidden)
-
-        optimizer.zero_grad()
+        if args.adagrad:
+            optimizer.zero_grad()
+        else:
+            model.zero_grad()
+            
         if sampled_softmax:
             output, hidden = model_train.forward(data, hidden, targets)
             loss = criterion(output, targets)
